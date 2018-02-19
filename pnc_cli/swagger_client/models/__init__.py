@@ -34,7 +34,6 @@ from .build_record_singleton import BuildRecordSingleton
 from .build_set_status_changed_event import BuildSetStatusChangedEvent
 from .build_status_changed_event_rest import BuildStatusChangedEventRest
 from .error_response_rest import ErrorResponseRest
-from .field_handler import FieldHandler
 from .id_rev import IdRev
 from .license_page import LicensePage
 from .license_rest import LicenseRest

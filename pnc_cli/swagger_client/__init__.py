@@ -34,7 +34,6 @@ from .models.build_record_singleton import BuildRecordSingleton
 from .models.build_set_status_changed_event import BuildSetStatusChangedEvent
 from .models.build_status_changed_event_rest import BuildStatusChangedEventRest
 from .models.error_response_rest import ErrorResponseRest
-from .models.field_handler import FieldHandler
 from .models.id_rev import IdRev
 from .models.license_page import LicensePage
 from .models.license_rest import LicenseRest

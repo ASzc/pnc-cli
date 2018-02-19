@@ -45,8 +45,7 @@ log_file="$codegen_dir/swagger-codegen-cli.log"
 
 set -x
 
-# TODO enable when ready to clean out obsolete files
-#rm -rf "$output_dir/swagger_client"
+rm -rf "$output_dir/swagger_client"
 
 java -jar "$codegen_filename" generate \
     -l python \
